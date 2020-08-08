@@ -18,14 +18,23 @@ Route::get('/', function () {
 });
 Route::get('/submit-review', function () {
     return view('front.write-review');
-})->name('write-review');
+})->name('write-review')->middleware('auth');
 
 Route::get('/review-detail', function () {
-    return view('front.reviews');
+    return view('front.reviews_details');
 })->name('reviews');
 
 Route::get('/reviews', function () {
     return view('front.review-list');
 });
+Route::view('/user-profile', 'front.user-profile');
 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

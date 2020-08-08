@@ -1,18 +1,10 @@
 
 <!-- COMMON SCRIPTS -->
-<script src="{{ asset('front/js/common_scripts.js') }}"></script>
-<script src="{{ asset('front/js/functions.js') }}"></script>
-<script src="{{ asset('front/assets/validate.js') }}"></script>
+<script src="{{ asset('js/common_scripts.js') }}"></script>
+<script src="{{ asset('js/functions.js') }}"></script>
+<script src="{{ asset('assets/validate.js') }}"></script>t>
 <!-- Masonry Filtering -->
-<script src="{{ asset('front/js/isotope.min.js') }}"></script>
-<script>
-    $(window).on('load',function(){
-        var $container = $('.isotope-wrapper');
-        $container.isotope({ itemSelector: '.isotope-item', layoutMode: 'masonry' });
-    });
 
-    $('.date_filter').on( 'click', 'input', 'change', function(){
-        var selector = $(this).attr('data-filter');
-        $('.isotope-wrapper').isotope({ filter: selector });
-    });
-</script>
+{{--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>--}}
+{{--<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>--}}
+{{--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>--}}
