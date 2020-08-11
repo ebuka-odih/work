@@ -28,6 +28,7 @@ Route::get('/reviews', function () {
     return view('front.review-list');
 });
 Route::view('/user-profile', 'front.user-profile');
+Route::view('/uploader-signup', 'front.uploader_signup');
 
 
 
@@ -35,6 +36,3 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
