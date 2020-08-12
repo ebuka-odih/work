@@ -18,7 +18,9 @@
                         <aside>
                             <figure>
                                 <a href="index.html"><img src="img/logo_sticky.svg" width="140" height="35" alt="" class="logo_sticky"></a>
-                            </figure><hr>
+                            </figure>
+                            <h4 class="text text-center">Uploader Form</h4>
+                            <hr>
                             <div>
 {{--                                <div class="access_social">--}}
 {{--                                    <a href="#0" class="social_bt facebook">Register with Facebook</a>--}}

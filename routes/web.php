@@ -29,6 +29,7 @@ Route::get('/reviews', function () {
 });
 Route::view('/user-profile', 'front.user-profile');
 Route::view('/uploader-signup', 'front.uploader_signup');
+Route::view('/reviewer-signup', 'front.reviewer_signup');
 
 
 
