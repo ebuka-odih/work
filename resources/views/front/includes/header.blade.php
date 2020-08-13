@@ -43,17 +43,17 @@
 
         <h4 class="text text-center">Choose Your Role</h4>
             <div class="text-center">
-                <a href="#"><input type="submit" value="Uploader" class="btn_1 full-width"></a>
+                <a href="{{ route('uploader') }}" class="btn_1 full-width">Uploader</a>
             </div>
             <div class="divider"><span>Or</span></div>
 
             <div class="text-center">
-                <a href="#"><input type="submit" value="Reviewer" class="btn_1 full-width"></a>
+                <a href="{{ route('reviewer') }}" class="btn_1 full-width">Reviewer</a>
             </div>
             <div class="divider"><span>Or</span></div>
 
             <div class="text-center">
-                <a href="#"><input type="submit" value="General Public" class="btn_1 full-width"></a>
+                <a href="{{ route('general_p') }}" class="btn_1 full-width">General Public</a>
             </div>
 
         </div>

@@ -5,9 +5,9 @@
     <main class="margin_main_container">
         <div class="container margin_60_35">
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-8 offset-2">
                     <div class="box_general write_review">
-                        <h1>Write a review of Good Electronics</h1>
+
                         <div class="rating_submit">
                             <div class="form-group">
 {{--                                <label class="d-block">Overall rating</label>--}}
@@ -45,43 +45,7 @@
                     </div>
                 </div>
                 <!-- /col -->
-                <div class="col-lg-4">
-                    <div class="latest_review">
-                        <h4>Recent reviews<br>for Good Electronics</h4>
-                        <div class="review_listing">
-                            <div class="clearfix add_bottom_10">
-                                <figure><img src="img/avatar3.jpg" alt=""></figure>
-                                <span class="rating"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star empty"></i><em>4.50/5.00</em></span>
-                                <small>Shops</small>
-                            </div>
-                            <h3><strong>Jhon Doe</strong></h3>
-                            <h4>"Avesome Experience"</h4>
-                            <p>Et nec tantas accusamus salutatus, sit commodo veritus te</p>
-                            <ul class="clearfix">
-                                <li><small>26.08.2018</small></li>
-                                <li><a href="reviews-page.html" class="btn_1 small">Read review</a></li>
-                            </ul>
-                        </div>
-                        <!-- /review_listing -->
-                        <div class="review_listing">
-                            <div class="clearfix add_bottom_10">
-                                <figure><img src="img/avatar4.jpg" alt=""></figure>
-                                <span class="rating"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star empty"></i><em>4.50/5.00</em></span>
-                                <small>Shops</small>
-                            </div>
-                            <h3><strong>Jhon Doe</strong></h3>
-                            <h4>"Avesome Experience"</h4>
-                            <p>Et nec tantas accusamus salutatus, sit commodo veritus te</p>
-                            <ul class="clearfix">
-                                <li><small>26.08.2018</small></li>
-                                <li><a href="reviews-page.html" class="btn_1 small">Read review</a></li>
-                            </ul>
-                        </div>
-                        <!-- /review_listing -->
-                    </div>
-                    <!-- /latest_review -->
 
-                </div>
             </div>
             <!-- /row -->
         </div>

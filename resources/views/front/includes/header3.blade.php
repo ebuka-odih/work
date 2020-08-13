@@ -11,8 +11,7 @@
             <div class="col-lg-9 col-12">
                 <ul id="top_menu">
                     <li><a href="{{ route('write-review') }}" class="btn_top">Write a Review</a></li>
-                    <li><a href="companies-landing.html" class="btn_top company">For Companies</a></li>
-                    <li><a href="#sign-in-dialog" id="sign-in" class="login" title="Sign In">Sign In</a></li>
+{{--                    <li><a href="companies-landing.html" class="btn_top company">For Companies</a></li>--}}
                 </ul>
                 <!-- /top_menu -->
                 <a href="#menu" class="btn_mobile">
