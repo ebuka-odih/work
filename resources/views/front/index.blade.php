@@ -5,41 +5,62 @@
 
 
 	<main>
-		<section class="hero_single version_1">
+		<section class=" version_1">
 			<div class="wrapper">
-				<div class="container">
-					<h3>Every Review is an Experience!</h3>
-					<p>Check Ratings of Businesses, Read Reviews &amp; Buy</p>
-					<div class="row justify-content-center">
-						<div class="col-lg-9">
-						<form method="post" action="grid-listings-filterstop.html">
-							<div class="row no-gutters custom-search-input-2">
-								<div class="col-lg-7">
-									<div class="form-group">
-										<input class="form-control" type="text" placeholder="What are you looking for...">
-										<i class="icon_search"></i>
-									</div>
-								</div>
-								<div class="col-lg-3">
-									<select class="wide">
-										<option>All Categories</option>
-										<option>Shops</option>
-										<option>Hotels</option>
-										<option>Restaurants</option>
-										<option>Bars</option>
-										<option>Events</option>
-										<option>Fitness</option>
-									</select>
-								</div>
-								<div class="col-lg-2">
-									<input type="submit" value="Search">
-								</div>
-							</div>
-							<!-- /row -->
-						</form>
-						</div>
-					</div>
-				</div>
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div style="height: 450px" class="carousel-item active">
+                            <img style="background-position: center;" src="https://guardian.ng/wp-content/uploads/2018/06/FEC-meeting.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div style="height: 450px" class="carousel-item">
+                            <img src="https://prod-001.s3.amazonaws.com/media/articleImages/New_PIctutee.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                        <div style="height: 450px" class="carousel-item">
+                            <img  style="background-position: center;" src="https://westernpostnigeria.com/wp-content/uploads/2019/10/EF9bKDpW4AAIpew.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+{{--				<div class="container">--}}
+{{--					<h3>Every Review is an Experience!</h3>--}}
+{{--					<p>Check Ratings of Businesses, Read Reviews &amp; Buy</p>--}}
+{{--					<div class="row justify-content-center">--}}
+{{--						<div class="col-lg-9">--}}
+{{--						<form method="post" action="grid-listings-filterstop.html">--}}
+{{--							<div class="row no-gutters custom-search-input-2">--}}
+{{--								<div class="col-lg-7">--}}
+{{--									<div class="form-group">--}}
+{{--										<input class="form-control" type="text" placeholder="What are you looking for...">--}}
+{{--										<i class="icon_search"></i>--}}
+{{--									</div>--}}
+{{--								</div>--}}
+{{--								<div class="col-lg-3">--}}
+{{--									<select class="wide">--}}
+{{--										<option>All Categories</option>--}}
+{{--										<option>Shops</option>--}}
+{{--										<option>Hotels</option>--}}
+{{--										<option>Restaurants</option>--}}
+{{--										<option>Bars</option>--}}
+{{--										<option>Events</option>--}}
+{{--										<option>Fitness</option>--}}
+{{--									</select>--}}
+{{--								</div>--}}
+{{--								<div class="col-lg-2">--}}
+{{--									<input type="submit" value="Search">--}}
+{{--								</div>--}}
+{{--							</div>--}}
+{{--							<!-- /row -->--}}
+{{--						</form>--}}
+{{--						</div>--}}
+{{--					</div>--}}
+{{--				</div>--}}
 			</div>
 		</section>
 		<!-- /hero_single -->
