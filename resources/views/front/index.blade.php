@@ -28,128 +28,48 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-{{--				<div class="container">--}}
-{{--					<h3>Every Review is an Experience!</h3>--}}
-{{--					<p>Check Ratings of Businesses, Read Reviews &amp; Buy</p>--}}
-{{--					<div class="row justify-content-center">--}}
-{{--						<div class="col-lg-9">--}}
-{{--						<form method="post" action="grid-listings-filterstop.html">--}}
-{{--							<div class="row no-gutters custom-search-input-2">--}}
-{{--								<div class="col-lg-7">--}}
-{{--									<div class="form-group">--}}
-{{--										<input class="form-control" type="text" placeholder="What are you looking for...">--}}
-{{--										<i class="icon_search"></i>--}}
-{{--									</div>--}}
-{{--								</div>--}}
-{{--								<div class="col-lg-3">--}}
-{{--									<select class="wide">--}}
-{{--										<option>All Categories</option>--}}
-{{--										<option>Shops</option>--}}
-{{--										<option>Hotels</option>--}}
-{{--										<option>Restaurants</option>--}}
-{{--										<option>Bars</option>--}}
-{{--										<option>Events</option>--}}
-{{--										<option>Fitness</option>--}}
-{{--									</select>--}}
-{{--								</div>--}}
-{{--								<div class="col-lg-2">--}}
-{{--									<input type="submit" value="Search">--}}
-{{--								</div>--}}
-{{--							</div>--}}
-{{--							<!-- /row -->--}}
-{{--						</form>--}}
-{{--						</div>--}}
-{{--					</div>--}}
-{{--				</div>--}}
 			</div>
 		</section>
 		<!-- /hero_single -->
 
 		<div class="container margin_60_35">
 			<div class="main_title_3">
-					<h2>Top Categories</h2>
-					<p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
-					<a href="all-categories.html">View all</a>
+					<h2>Notice</h2>
+					<p>Do Make Sure You Read The Notice Carefully.</p>
 				</div>
 			<div class="row justify-content-center">
-				<div class="col-lg-4 col-sm-6">
-					<a href="grid-listings-filterstop.html" class="grid_item">
-						<figure>
-							<img src="img/box_cat_home_1.jpg" alt="">
-							<div class="info">
-								<small>122 Results</small>
-								<em><i class="icon-comment"></i> 356 Reviews</em>
-								<h3>Clothing</h3>
-							</div>
-						</figure>
-					</a>
-				</div>
-				<!-- /grid_item -->
-				<div class="col-lg-4 col-sm-6">
-					<a href="grid-listings-filterstop.html" class="grid_item">
-						<figure>
-							<img src="img/box_cat_home_2.jpg" alt="">
-							<div class="info">
-								<small>245 Results</small>
-								<em><i class="icon-comment"></i> 123 Reviews</em>
-								<h3>Hotels</h3>
-							</div>
-						</figure>
-					</a>
-				</div>
-				<!-- /grid_item -->
-				<div class="col-lg-4 col-sm-6">
-					<a href="grid-listings-filterstop.html" class="grid_item">
-						<figure>
-							<img src="img/box_cat_home_3.jpg" alt="">
-							<div class="info">
-								<small>95 Results</small>
-								<em><i class="icon-comment"></i> 245 Reviews</em>
-								<h3>Restaurants</h3>
-							</div>
-						</figure>
-					</a>
-				</div>
-				<!-- /grid_item -->
-				<div class="col-lg-4 col-sm-6">
-					<a href="grid-listings-filterstop.html" class="grid_item">
-						<figure>
-							<img src="img/box_cat_home_4.jpg" alt="">
-							<div class="info">
-								<small>123 Results</small>
-								<em><i class="icon-comment"></i> 187 Reviews</em>
-								<h3>Bars</h3>
-							</div>
-						</figure>
-					</a>
-				</div>
-				<!-- /grid_item -->
-				<div class="col-lg-4 col-sm-6">
-					<a href="grid-listings-filterstop.html" class="grid_item">
-						<figure>
-							<img src="img/box_cat_home_5.jpg" alt="">
-							<div class="info">
-								<small>92 Results</small>
-								<em><i class="icon-comment"></i> 221 Reviews</em>
-								<h3>Electronics</h3>
-							</div>
-						</figure>
-					</a>
-				</div>
-				<!-- /grid_item -->
-				<div class="col-lg-4 col-sm-6">
-					<a href="grid-listings-filterstop.html" class="grid_item">
-						<figure>
-							<img src="img/box_cat_home_6.jpg" alt="">
-							<div class="info">
-								<small>92 Results</small>
-								<em><i class="icon-comment"></i> 323 Reviews</em>
-								<h3>Beauty</h3>
-							</div>
-						</figure>
-					</a>
-				</div>
-				<!-- /grid_item -->
+				<div class="container">
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Qualification For Reviewer
+                                    </button>
+                                </h2>
+                            </div>
+
+                            <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p>1. Professional bodies with registration number</p>
+                                    <p>2. At least each state can have a professional body, that simply means every state is allowed to register upto eleven (11) professional body</p>
+                                    <p>
+                                    <div class="list-group col-6">
+                                        <button type="button" class="list-group-item list-group-item-action active">
+                                          3.  Every LGA are allowed to register upto
+                                        </button>
+                                        <button type="button" class="list-group-item list-group-item-action">20 persons from the Academia</button>
+                                        <button type="button" class="list-group-item list-group-item-action">20 persons from the Opposition Party</button>
+                                        <button type="button" class="list-group-item list-group-item-action">20 persons from the Religious</button>
+                                        <button type="button" class="list-group-item list-group-item-action">20 persons from the Traditional Council</button>
+                                    </div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
 			</div>
 			<!-- /row -->
 		</div>
